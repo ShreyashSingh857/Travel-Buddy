@@ -1,0 +1,115 @@
+.mainDiv {
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-width: none; 
+    -ms-overflow-style: none;  
+}
+.mainDiv::-webkit-scrollbar {
+    display: none;
+}
+.cityName{
+    font-family: "Titan One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.navHead {
+    font-family: "Titan One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.inputDestination{
+    display: none;
+}
+.animation{
+    height: 40vh;
+    width: 50vw;
+    background: linear-gradient(90deg, rgba(252,70,107,0) 0%, rgba(63,94,251,0) 100%);
+    margin-top: 8rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    perspective: 1000px;
+    
+
+}
+.ball{
+    height: 50%;
+    width: 4.5%;
+    /* background-color: white; */
+    border-radius: 20px;
+    /* animation: myAnimation2 3s linear infinite ; */
+    position: relative;
+    background-color: #fe836a;
+    
+}
+.bal{
+    height: 50%;
+    width: 4.5%;
+    /* background-color: white; */
+    border-radius: 20px;
+    position: relative;
+    background-color: #ac61b0;
+    
+    }
+.balls{
+    display:flex;
+    height: 20%;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    /* gap: 0.5%; */
+    position: relative;
+}
+.bals{
+    display:flex;
+    height: 20%;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    /* gap: 0.5%; */
+}
+@keyframes myAnimation{
+    from{
+        transform: scale(0.7);
+        top: 0px;
+    }
+    to{
+        transform: scale(1);
+        top:145px;
+        z-index: -10;
+    }
+}
+@keyframes myAnimation2{
+    from{
+        transform: scale(1);
+        top:0px;
+    }
+    to{
+        transform: scale(0.7);
+        top:-145px;
+        z-index: 1000;
+    }
+}
+.bal1 { animation: myAnimation 2s ease-in-out infinite 0ms; }
+.bal2 { animation: myAnimation 2s ease-in-out infinite 200ms; }
+.bal3 { animation: myAnimation 2s ease-in-out infinite 400ms; }
+.bal4 { animation: myAnimation 2s ease-in-out infinite 600ms; }
+.bal5 { animation: myAnimation 2s ease-in-out infinite 800ms; }
+.bal6 { animation: myAnimation 2s ease-in-out infinite 1000ms; }
+.bal7 { animation: myAnimation 2s ease-in-out infinite 1200ms; }
+.bal8 { animation: myAnimation 2s ease-in-out infinite 1400ms; }
+.bal9 { animation: myAnimation 2s ease-in-out infinite 1600ms; }
+.bal10 { animation: myAnimation 2s ease-in-out infinite 2000ms; }
+.ball1 { animation: myAnimation2 2s ease-in-out infinite 0ms; }
+.ball2 { animation: myAnimation2 2s ease-in-out infinite 200ms; }
+.ball3 { animation: myAnimation2 2s ease-in-out infinite 400ms; }
+.ball4 { animation: myAnimation2 2s ease-in-out infinite 600ms; }
+.ball5 { animation: myAnimation2 2s ease-in-out infinite 800ms; }
+.ball6 { animation: myAnimation2 2s ease-in-out infinite 1000ms; }
+.ball7 { animation: myAnimation2 2s ease-in-out infinite 1200ms; }
+.ball8 { animation: myAnimation2 2s ease-in-out infinite 1400ms; }
+.ball9 { animation: myAnimation2 2s ease-in-out infinite 1600ms; }
+.ball10 { animation: myAnimation2 2s ease-in-out infinite 2000ms; }
